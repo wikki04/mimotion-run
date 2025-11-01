@@ -1,4 +1,4 @@
-name: 刷步数2
+name: 刷步数16点
 
 on:
   #push:
@@ -6,7 +6,7 @@ on:
   #pull_request:
   #  branches: [ master ]
   schedule:
-    - cron: '12 13 * * *'
+    - cron: '15 8 * * *'
   watch:
     types: started
   workflow_dispatch:
